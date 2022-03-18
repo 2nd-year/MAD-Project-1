@@ -8,6 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="link_blue">#0000EE</color>
-    <color name="bee_yellow">#FADC02</color>
+    <color name="bee_yellow">#FFC300</color>
     <color name="background_black">#2E2F32</color>
+    <color name="background_gray">#F3F3F0</color>
+    <color name="background_color">#2B2B2A</color>
+    <color name="font_fill_color">#747272</color>
 </resources>
