@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MADProject1">
         <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Reset_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".SignInActivity"
             android:exported="false" />
         <activity
