@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/mad_background"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".MainFirst">
 
     <Button
         android:id="@+id/signInBtn"

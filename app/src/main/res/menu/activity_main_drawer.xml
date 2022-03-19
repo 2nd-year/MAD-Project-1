@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_frocks"
+            android:icon="@drawable/dress"
+            android:title="Frocks" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/tshirt"
+            android:title="T-Shirt" />
+        <item
+            android:id="@+id/trouser"
+            android:icon="@drawable/trouser"
+            android:title="Trousers" />
+        <item
+            android:id="@+id/Jewellery"
+            android:icon="@drawable/jewelry"
+            android:title="Jewellery" />
+        <item
+            android:id="@+id/Shoes"
+            android:icon="@drawable/high_heels_icon"
+            android:title="Shoes" />
+        <item
+            android:id="@+id/bag"
+            android:icon="@drawable/shopping_bag"
+            android:title="Shopping Bag" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+    </group>
+</menu>
