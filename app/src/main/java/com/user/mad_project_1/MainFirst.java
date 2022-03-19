@@ -10,7 +10,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 
-public class MainFirst extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     Context context = this;
 
     @Override
@@ -23,7 +23,7 @@ public class MainFirst extends AppCompatActivity {
        signBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainFirst.this, SignInActivity.class);
+                Intent intent = new Intent(MainActivity.this, SignInActivity.class);
                 startActivity(intent);
             }
         });
@@ -32,6 +32,6 @@ public class MainFirst extends AppCompatActivity {
         getSupportActionBar().hide(); // hide the title bar
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
-        setContentView(R.layout.activity_first);
+        setContentView(R.layout.activity_main);
     }
 }
