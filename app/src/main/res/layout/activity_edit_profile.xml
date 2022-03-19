@@ -119,6 +119,7 @@
             android:drawablePadding="10dp"
             android:ems="10"
             android:hint="Name"
+            android:text="Sri Lanka"
             android:inputType="textPersonName"
             android:padding="10dp"
             android:textColor="@color/white"
