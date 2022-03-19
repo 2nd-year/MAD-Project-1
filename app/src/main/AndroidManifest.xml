@@ -10,6 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MADProject1">
         <activity
+            android:name=".fragment_bags"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_shoes"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_jewellery"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProductView"
+            android:exported="false" />
+        <activity
+            android:name=".SingleProduct"
+            android:exported="false" />
+        <activity
+            android:name=".BuyNow"
+            android:exported="false" />
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.MADProject1.NoActionBar" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
@@ -28,7 +51,7 @@
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainFirst"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
